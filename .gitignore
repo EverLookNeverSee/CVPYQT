@@ -1,2 +1,9 @@
 # Project exclude paths
 /venv/
+/.idea/inspectionProfiles/
+/.idea/aws.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/CVPYQT.iml
+/.idea/.gitignore
