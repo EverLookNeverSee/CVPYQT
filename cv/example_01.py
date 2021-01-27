@@ -9,3 +9,14 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QLabel, QFileDi
                              QMessageBox, QHBoxLayout, QVBoxLayout, QAction)
 from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtCore import Qt
+
+
+style_sheet = """
+    QLabel#ImageLabel{
+        color: darkgrey;
+        border: 2px dashed darkgrey
+    }
+    QLabel{
+    qproperty-alignment: AlignCenter
+    }
+"""
